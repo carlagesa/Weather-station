@@ -75,7 +75,7 @@ function App() {
             </div>
           </div>
           <div className="search">
-            <h2>The Only Weather App You Need !</h2>
+            <h2>Get real time data from the best!</h2>
             <hr />
             <form className="search-bar" noValidate onSubmit={handleSubmit}>
               <input
