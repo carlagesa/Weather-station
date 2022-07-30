@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/carlagesa/Weather-station/static/css/main.7db8c599.css",
+    "main.js": "/carlagesa/Weather-station/static/js/main.978c5cda.js",
+    "static/js/787.bd717ee6.chunk.js": "/carlagesa/Weather-station/static/js/787.bd717ee6.chunk.js",
+    "static/media/lake-background.jpg": "/carlagesa/Weather-station/static/media/lake-background.ab19eb6fc568e5c0ff4d.jpg",
+    "index.html": "/carlagesa/Weather-station/index.html",
+    "main.7db8c599.css.map": "/carlagesa/Weather-station/static/css/main.7db8c599.css.map",
+    "main.978c5cda.js.map": "/carlagesa/Weather-station/static/js/main.978c5cda.js.map",
+    "787.bd717ee6.chunk.js.map": "/carlagesa/Weather-station/static/js/787.bd717ee6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7db8c599.css",
+    "static/js/main.978c5cda.js"
+  ]
+}
