@@ -11,7 +11,7 @@ function App() {
   const [noData, setNoData] = useState("No Data Yet");
   const [searchTerm, setSearchTerm] = useState("");
   const [weatherData, setWeatherData] = useState([]);
-  const [city, setCity] = useState("Unknown location");
+  const [city, setCity] = useState("Location unknown");
   const [weatherIcon, setWeatherIcon] = useState(
     `${process.env.REACT_APP_ICON_URL}10n@2x.png`
   );
@@ -37,6 +37,7 @@ function App() {
       let res = await fetch(`${process.env.REACT_APP_URL + how_to_search}
       &appid=${API_KEY}&units=metric&cnt=5&exclude=hourly,minutely`);
       let data = await res.json();
+      
       if (data.cod != 200) {
         setNoData("Location Not Found");
         return;
