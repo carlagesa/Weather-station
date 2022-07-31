@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/carlagesa/Weather-station",
   "scripts": {
-   "predeploy": "npm run build",
+   CI= npm run build
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
